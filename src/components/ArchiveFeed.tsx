@@ -44,7 +44,7 @@ const ArchiveFeed = () => {
         return <div>Loading...</div>
     }
     return (
-        <section className='flex flex-col items-center h-full overflow-scroll py-4 bg-[#f4f4f4]'>
+        <section className='flex flex-col items-center h-full overflow-scroll pt-4 pb-[9rem] bg-[#f4f4f4]'>
             <button className='bg-red- flex justify-center items-center w-[80%] border border-gray-300 rounded-lg py-2'>
                 <img src={ArchiveIcon} alt="." className='w-5 h-5 mr-2' />
                 <span className='font-medium'
